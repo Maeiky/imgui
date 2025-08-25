@@ -1,3 +1,23 @@
+----
+> ⚠️ This is a customized fork of the [Sokol](https://github.com/floooh/sokol) imgui utility library, maintained by [Wake.Tools](https://wake.tools), for integration into the Wake runtime.
+----
+>🔹 Only the `cimgui utility library` component of this fork is currently used to build the Wake-compatible cimgui.
+
+ While this fork is built and packaged internally for Wake.Tools, it remains compatible with the original Sokol sources and build process.  
+ The maintained version is tailored for high stability and deep integration with the Wake environment.
+
+ 🛠️ Developers may create functional derivatives of this fork. However, it is **strongly recommended** to stay aligned with the official Wake.Tools version, which is actively maintained and tested for consistent runtime behavior.
+
+ 📦 To ensure full compatibility with Wake's module system, dynamic libraries should be built using the following naming convention:  
+ `author--name-version-sys-type.ext`
+> (e.g., `myrepo--sokolgfx-0.2.0rc1-w32-r.dll`, `myrepo--sokolgfx-0.2.0rc1-osx-d.dylib`, etc.)
+
+ 🔄 If your changes could benefit the broader Sokol community, consider submitting pull requests to the upstream repository as well.
+
+ 👉 For original sources and full documentation, visit: [Sokol project](https://github.com/floooh/sokol)
+
+----
+
 [![Build](https://github.com/floooh/dcimgui/actions/workflows/build.yml/badge.svg)](https://github.com/floooh/dcimgui/actions/workflows/build.yml)
 
 A version-tagged all-in-one [Dear ImGui](https://github.com/ocornut/imgui)
